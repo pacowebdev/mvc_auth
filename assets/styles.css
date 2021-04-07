@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --white: #F1F1F1;
+    --black: #1F1F1F;
+    --red: brown;
+    --blue: steelblue;
+}
+
+/* BASE */
+body {
+    padding: 1rem;
+    background-color: var(--white);
+    color: var(--black);
+}
+main {
+    padding: 1rem 0 1rem 0;
+}
+header, footer {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--black);
+    color: var(--white);
+}
+header {
+    background-image: url("../assets/img/code.jpg");
+    background-size: cover;
+    background-position: center;
+}
+footer {
+    text-align: center;
+    justify-content: center;
+}
+header img {
+    width: 5rem;
+}
+nav {
+    width: 100%;
+    padding: .3rem;
+    background-color: var(--black);
+    color: var(--white);
+}
+article {
+    min-width: 5rem;
+    max-width: 17rem;
+    border: 1px solid var(--red);
+    padding: 1rem;
+    margin: .5rem;
+}
+article img {
+    float: left;
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+/* TEXT */
+h1, h2, h3 {
+    color: var(--red);
+}
+
+/* LINK */
+a {
+    text-decoration: none;
+    color: var(--blue);
+    font-weight: bold;
+    font-style: italic;
+}
+a:hover {
+    font-style: italic;
+    color: var(--red);
+}
+nav a, nav p {
+    margin: 0 .7rem 0 .7rem;
+    color: var(--white);
+}
+nav a:hover {
+    color: var(--blue);
+}
+
+/* LIST */
+ul {
+    list-style-type: lower-greek;
+    margin-left: 2rem;
+}
+
+/* CLASS */
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+nav.flex {
+    justify-content: space-between;
+}
