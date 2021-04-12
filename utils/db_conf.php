@@ -3,8 +3,10 @@
 /**
  * infos db à rentrer
  */
+
+
 const DB_HOST   = "localhost";
-const DB_NAME   = "blog";
+const DB_NAME   = "mvc_auth";
 const DB_LOGIN  = "root";
 const DB_PASS   = "root";
 

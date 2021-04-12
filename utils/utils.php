@@ -8,6 +8,13 @@ function printR( $array )
 }
 
 
+function get_POST( $field ):string
+{
+    if( isset($_POST[$field]) && !empty($_POST[$field]) )
+        return $_POST[$field];
+}
+
+
 function init_php_session():bool
 {
     if(!session_id())
