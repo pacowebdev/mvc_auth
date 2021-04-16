@@ -1,10 +1,3 @@
-<?php
-
-    $users = db_request('SELECT * FROM users');
-
-?>
-
-
 
 <main>
     <h1>Admin</h1>

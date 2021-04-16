@@ -3,7 +3,8 @@
     include 'utils/utils.php';
     include 'utils/db_request.php';
 
-    $title = 'admin';
+    include 'models/model.header.php';
+    include 'models/model.admin.php';
 
     include 'views/templates/header.php';
     include 'views/admin.php';
