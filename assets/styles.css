@@ -44,17 +44,23 @@ nav {
     background-color: var(--black);
     color: var(--white);
 }
-article {
+article, form {
     min-width: 5rem;
     max-width: 17rem;
     border: 1px solid var(--red);
+    border-radius: 4px;
+    text-align: center;
     padding: 1rem;
     margin: .5rem;
 }
+article:hover {
+    box-shadow: inset 4px 4px 4px var(--black);
+}
+article:active {
+    background-color: var(--red);
+}
 article img {
-    float: left;
     width: 3rem;
-    margin-right: 1rem;
 }
 
 /* TEXT */
@@ -92,6 +98,9 @@ ul {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+article.detail {
+    width: 100%;
 }
 nav.flex {
     justify-content: space-between;
