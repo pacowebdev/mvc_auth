@@ -4,8 +4,8 @@ class Database
 {
     protected static string $DB_HOST   = "localhost";
     protected static string $DB_NAME   = "mvc_auth";
-    protected static string $DB_LOGIN  = "root";
-    protected static string $DB_PASS   = "root";
+    protected static string $DB_LOGIN  = "xxxx";
+    protected static string $DB_PASS   = "xxxx";
 
     private static array $DB_OPTIONS = [
     PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8mb4',
